@@ -11,6 +11,7 @@
     <Compile Include="Unions.fs" />
     <Compile Include="PostgresConn.fs" />
     <Compile Include="KindT.fs" />
+    <Compile Include="TypeEval.fs" />
   </ItemGroup>
 
   <ItemGroup>

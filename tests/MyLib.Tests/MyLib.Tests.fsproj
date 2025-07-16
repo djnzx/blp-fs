@@ -12,6 +12,7 @@
     <Compile Include="PostgresConn.fs" />
     <Compile Include="KindT.fs" />
     <Compile Include="TypeEval.fs" />
+    <Compile Include="KindCheck.fs" />
   </ItemGroup>
 
   <ItemGroup>

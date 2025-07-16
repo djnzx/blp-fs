@@ -1,8 +1,12 @@
 module MyLib.Core
 
-  // - define `typeEval` as a function that evaluates type expressions into type values
-  // - define `kindCheck` as a function that checks that a type expression has valid kinds
-  // - define a `toSQLSchema` that, given a `TypeValue`, maps it to a (Postgres) SQL type definition
+  // - define `typeEval` as a function that
+  //   evaluates type expressions into type values
+  // - define `kindCheck` as a function that
+  //   checks that a type expression has valid kinds
+  // - define a `toSQLSchema` that,
+  //   given a `TypeValue`,
+  //   maps it to a (Postgres) SQL type definition
   
   type TypeParameter = { Name: string; Kind: Kind }
 
